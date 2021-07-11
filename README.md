@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://i.hizliresim.com/qb3gbap.jpg" width="300" height="300">
+  <img src="">
   <h1>🇹🇷 Ⲋⲓⲅⲓ Ⳙ⳽ⲉⲅⲂⲟⲧ 🇺🇲</h1>
 </div>
 <p align="center">
