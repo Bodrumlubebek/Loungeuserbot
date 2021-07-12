@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 """ İnsanlarla eğlenmek için yapılmış olan UserBot modülü. """
 
@@ -492,7 +492,7 @@ async def slap(replied_user, event):
     hit = choice(HIT)
     throw = choice(THROW)
 
-    caption = "Siri " + temp.format(
+    caption = "Lounge " + temp.format(
         victim=slapped, item=item, hits=hit, throws=throw)
 
     return caption
@@ -944,13 +944,13 @@ CmdHelp('memes').add_command(
 ).add_command(
     'cowsay', None, 'Bir şeyler söyleyen inek'
 ).add_command(
-    ':/', None, 'Berce\'nin 3 aydır kızın adını öğrenemediği aklına geliyor.'
+    ':/', None, 'Sakir\'nin 3 aydır kızın adını öğrenemediği aklına geliyor.'
 ).add_command(
     'karar', None, 'Karar verin.'
 ).add_command(
     '-_-', None, 'Tamamdır.\n-Birtanem Usta'
 ).add_command(
-    ';_;', None, 'İxel\'in 5 dakikadır kaynanasını görmediğini düşünün.'
+    ';_;', None, 'Bodrumlu\'nun 5 dakikadır kaynanasını görmediğini düşünün.'
 ).add_command(
     'cp', '<yanıt>', 'Emoji falan ekliyor.'
 ).add_command(
@@ -958,9 +958,9 @@ CmdHelp('memes').add_command(
 ).add_command(
     'str', '<yazı>', 'Yazıyı uzatın.'
 ).add_command(
-    '10iq', None, 'Erdem mesaj yazıyor.'
+    '10iq', None, 'Sakir mesaj yazıyor.'
 ).add_command(
-    'mizah', None, 'Tekerlek Erdem Bey espri yaparsa hemen kullanın.'
+    'mizah', None, 'Tekerlek bodrumlu Bey espri yaparsa hemen kullanın.'
 ).add_command(
     'zal', '<yanıtlama/mesaj>', 'Çok karmaşık! Her şey çok karmaşık.'
 ).add_command(
@@ -976,7 +976,7 @@ CmdHelp('memes').add_command(
 ).add_command(
     'moon', None, 'Ay animasyonu.'
 ).add_command(
-    'clock', None, 'İxel kaynanasını bekliyor. (Saat animasyonu)'
+    'clock', None, 'Bodrumlu kaynanasını bekliyor. (Saat animasyonu)'
 ).add_command(
     'hi', None, 'Selam verin.'
 ).add_command(
