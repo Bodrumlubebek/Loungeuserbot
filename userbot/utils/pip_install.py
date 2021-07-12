@@ -1,4 +1,4 @@
-# SiriUserBot - Pip Install
+# LoungeUserBot - Pip Install
 
 #Credit: sandy1709
 
