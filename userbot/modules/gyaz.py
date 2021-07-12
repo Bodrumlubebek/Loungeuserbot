@@ -1,4 +1,4 @@
-# SİRİUSERBOT - BERCESTE
+# LOUNGEUSERBOT - SAKİRBEY - BODRUMLUBEBEKK
 
 import re
 import os
@@ -23,16 +23,16 @@ async def gyazz(event):
     mssg = await event.get_reply_message() 
     if event.reply_to_msg_id:
         await event.client.send_message(chat_id, mssg)
-        await event.edit("@SiriOT `Mesajınızı gönderdi ✅`")
+        await event.edit("@loungesupport `Mesajınızı gönderdi ✅`")
     for i in m[1:]:
         msg += i + " "
     if msg == "":
         return
     try:
         await event.client.send_message(chat_id, msg)
-        await event.edit("@SiriOT `Mesajınızı gönderdi ✅`")
+        await event.edit("@loungesupport `Mesajınızı gönderdi ✅`")
     except BaseException:
-        await event.edit("**@SiriOT Mesajınızı Gönderemedi Belirttiğin Grupta Olduğuna Eminmisin Sahip ? **")
+        await event.edit("**@loungesupport Mesajınızı Gönderemedi Belirttiğin Grupta Olduğuna Eminmisin Sahip ? **")
         
 CmdHelp('gyaz').add_command(
     'gyaz', ' <gruplinki> <mesajınız>', 'İstediğiniz Gruba Uzaktan Mesaj Göndermeye Yarar. '
