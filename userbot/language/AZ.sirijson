@@ -2,7 +2,7 @@
     "__SIRIJSON__": true,
     "LANGUAGE": "Azərbaycanca",
     "LANGCODE": "az",
-    "AUTHOR": "Sahil",
+    "AUTHOR": "Bodrumlubebek & SakirBey",
     "STRINGS": {
         "__plugin": {
             "REPLY_FOR_PORT": "`Zəhmət olmasa Plugin-Port üçün bir fayla cavab yazın`",
@@ -30,12 +30,12 @@
             "ALREADY_DELETED": "`Plugin faylı artıq silinib.`",
             "NOT_FOUND_PLUGIN": "`Belə bir plugin bəlkə var idi, bəlkədə yox. Ancaq hazırda olmadığı dəqiqdir.`",
             "PLUG_DELETED": "`Plugin uğurla silindi!` **Restarting..**",
-            "SIRI_PLUGIN_CAPTION": "Bu [Siri](https://t.me/Siriuserbot) pluginidir."
+            "SIRI_PLUGIN_CAPTION": "Bu [Lounge](https://t.me/loungesupport) pluginidir."
         },
         
         "__siri": {
             "NEED_PLUGIN": "✨ Zəhmət olmasa bir Siri modulu adı yazın.",
-            "NEED_MODULE": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Zəhmət olmasa hansı Siri modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .siri <modul adı>"
+            "NEED_MODULE": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Zəhmət olmasa hansı Lounge modulu üçün kömək istədiyinizi qeyd edin !!\nİstifadəsi: .lounge <modul adı>"
         },
 
         "__helpme": {
@@ -115,7 +115,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s nizamlanır...`",
             "BIO": "📆 Tarix: {tarih} | ⏰ Saat: {saat} | ",
-            "NICK": "@SiriOT",
+            "NICK": "@loungesupport",
             "SETTED": "`%s nizamlandı :)`",
             "NAME": "⌚%s"
         },
@@ -146,7 +146,7 @@
         },
 
         "botfather": {
-            "ERROR": "`Sirinin bot yaratması üçün əksik bilgi vermə qadan alım!`"
+            "ERROR": "`Lounge'nin bot yaratması üçün əksik bilgi vermə qadan alım!`"
         },
 
 
@@ -175,8 +175,8 @@
             "EFECTING": "`Effekt hazırlanır...`",
             "NOT_FOUND_EFECT": "**Qeyd etdiyiniz effekt tapılmadı! **`İstifadə edə biləcəyiniz effektlər: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Zəhmət olmasa bir videoya cavab verin!`",
-            "WITH_SIRI":"@SiriOT `ilə effekt hazırlandı.`",
-            "WITH_SIRI_GIF": "@SiriOT `ilə Gif'ə çevrildi.`",
+            "WITH_SIRI":"@loungesupport `ilə effekt hazırlandı.`",
+            "WITH_SIRI_GIF": "@loungesupport `ilə Gif'ə çevrildi.`",
             "CONVERTING_TO_GIF": "Gif'ə çevrilir...",
             "UPLOADING_GIF": "`Gif yüklənir...`",
             "ERROR": "Gif'ə çevirə bilmədim :/"
@@ -293,7 +293,7 @@
 
         "galeri": {
             "ADDED_LIST": "`Şəkil növbəyə əlavə edildi.`",
-            "INVALID_URL": "`Səhf bir şəkil URL'i yazdınız. İstifadəsi haqqında bir fikriniz yoxdursa, ` `.siri galeri` `yazın.`",
+            "INVALID_URL": "`Səhf bir şəkil URL'i yazdınız. İstifadəsi haqqında bir fikriniz yoxdursa, ` `.lounge galeri` `yazın.`",
             "EXAMPLE": "`Zəhmət olmasa bir şəkil adressi yazın. Nümunə olaraq: ` `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`",
             "LIST": "Növbəyə əlavə etdiyiniz şəkillər",
             "REMOVED": "**Növbədəki şəkil uğurla silindi**",
@@ -318,7 +318,7 @@
 
         "kyolla": {
             "REPLY_MESSAGE": "`Zəhmət olmasa bir mesaja cavab verin.`",
-            "SUCCESSFUL": "`Siri mesajı Qeyd olunan mesajlar bölümünə yolladı!`"
+            "SUCCESSFUL": "`Lounge mesajı Qeyd olunan mesajlar bölümünə yolladı!`"
         },
 
 
@@ -379,10 +379,10 @@
             "GOODMORNIN_YALL": "`Sabahınız xeyir!`",
             "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürlmə səsi*`",
             "RESTARTING": "`Bot yenidən qoşulur..`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/sirisupport) Dəstək qrupumuza çata bilərsiniz.",
-            "CREATOR": "Bu bot @bberc tərəfindən hazırlanmışdır. \n",
-            "README": "[Siri README](https://github.com/SiriUserBot/SiriUserBot/blob/master/README.md)",
-            "REPO": "[Siri Repo](https://github.com/SiriUserBot/siriuserbot)",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/loungesupport) za çata bilərsiniz.",
+            "CREATOR": "Bu bot @Sakirhackoffcial9 ve @Bodrumlubebekk tərəfindən hazırlanmışdır. \n",
+            "README": "[Lounge README](https://github.com/robotlog/SiriUserBot/edit/master/README.md)",
+            "REPO": "[Lounge Repo](https://github.com/Bodrumlubebek/Loungeuserbot)",
             "CHECK_LOGS": "`Tapılmış Mesaj üçün istifadəçi qeydlərini yoxlayın!`"
         },
 
@@ -405,7 +405,7 @@
 
 
         "playstore": {
-            "SEARCH": "`🔎 Siri verdiyiniz proqramı axtarır...`",
+            "SEARCH": "`🔎 Lounge iniz proqramı axtarır...`",
             "EKS": "`⛔ Zəhmət olmasa proqram adı yazın. Örnək`",
             "NOT_FOUND": "`⛔ Axtardığınız proqramı tapa bilmədim..`",
             "PUAN": "Xal :",
@@ -555,7 +555,7 @@
             "SEARCHING": "`Musiqi axtarılır...`",
             "BLOCKED_DEEZER": "`Hmm deyəsən` @DeezerMusicBot `bloklamısan zəhmət olmasa bloku aç",
             "NOT_FOUND": "`Axtardığınız mahnı tapılmadı! Bağışlayın.`",
-            "UPLOADED_WITH": "@SiriOT ilə yükləndi",
+            "UPLOADED_WITH": "@loungesupport ,
             "USAGE": "`İstifadəsi:` `.song mahnı ad/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Mahnıların axtarışı və yüklənməsini gözləyin!",
             "DOWNLOADED": "`Yükləmə uğurlu oldu, xahiş edirəm gözləyin.`",
