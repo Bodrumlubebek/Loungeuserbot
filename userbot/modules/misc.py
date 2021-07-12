@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """ Birkaç küçük komutu içeren UserBot modülü. """
@@ -51,7 +51,7 @@ async def randomise(items):
 
 @register(pattern="^.sleep( [0-9]+)?$")
 async def sleepybot(time):
-    """ .sleep komutu Siri'nın birkaç saniye uyumasına olanak sağlar. """
+    """ .sleep komutu Lounge'nin birkaç saniye uyumasına olanak sağlar. """
     if " " not in time.pattern_match.group(1):
         await time.reply(LANG['SLEEP_DESC'])
     else:
@@ -178,15 +178,15 @@ async def raw(event):
             caption="`Çözülen mesaj`")
 
 CmdHelp('misc').add_command(
-    'random', '<eşya1> <eşya2> ... <eşyaN>', 'Eşya listesinden rastgele bir eşya seçer', 'random siri uniborg userge'
+    'random', '<eşya1> <eşya2> ... <eşyaN>', 'Eşya listesinden rastgele bir eşya seçer', 'random lounge uniborg userge'
 ).add_command(
-    'sleep', '<süre>', 'Siri de bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.', 'sleep 30'
+    'sleep', '<süre>', 'Lounge de bir insan, o da yoruluyor. Ara sıra biraz uyumasına izin ver.', 'sleep 30'
 ).add_command(
     'shutdown', None, 'Nostaljik bir şekilde botunuzu kapatın.'
 ).add_command(
-    'repo', None, 'Siri botunun GitHub\'daki reposuna giden bir bağlantı.'
+    'repo', None, 'Lounge botunun GitHub\'daki reposuna giden bir bağlantı.'
 ).add_command(
-    'readme', None, 'Siri botunun GitHub\'daki README.md dosyasına giden bir bağlantı.'
+    'readme', None, 'Lounge botunun GitHub\'daki README.md dosyasına giden bir bağlantı.'
 ).add_command(
     'creator', None, 'Bu güzel botu kimlerin oluşturduğunu öğren :-)'
 ).add_command(
