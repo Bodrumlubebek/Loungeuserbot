@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 """ Telegram'daki profil detaylarınızı değişmeye yarayan UserBot modülüdür. """
 
@@ -127,7 +127,7 @@ async def count(event):
     bc = 0
     b = 0
     result = ""
-    await event.edit("`Lütfen bekleyin..`")
+    await event.edit("`Lütfen bekleyin...`")
     dialogs = await bot.get_dialogs(limit=None, ignore_migrated=True)
     for d in dialogs:
         currrent_entity = d.entity
