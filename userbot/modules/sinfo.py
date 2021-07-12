@@ -1,4 +1,4 @@
-#              SİRİ USERBOT /  Berce            # thx: Midy - Erdem Bey
+#              LOUNGE USERBOT /              # thx: Bodrumlu - Sakir Bey
 # Bu bize ait birşeydir alıyorsan silme burayı dostum anladın sen zaten
 
 
