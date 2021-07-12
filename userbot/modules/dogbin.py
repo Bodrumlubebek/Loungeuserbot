@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# ASiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """ Dogbin ile etkileşim için komutlar içeren UserBot modülü(https://del.dog)"""
