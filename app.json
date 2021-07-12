@@ -5,14 +5,14 @@
   "keywords": [
     "telegram",
     "userbot",
-	"Siri",
+	"Lounge",
     "plugin",
     "modular",
     "productivity"
   ],
   "repository": "https://github.com/Bodrumlubebek/LoungeUserBot",
   "website":   "https://t.me/Codlar",
-  "success_url": "https://t.me/SiriChat",
+  "success_url": "https://t.me/loungesupport",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -96,7 +96,7 @@
       "value": "False"
     },
     "BOT_USERNAME": {
-      "description": "Inline bot özelliğinin çalışması için gereklidir. Buraya botunuzun kullanıcı adınız yazmanız lazım (Örnek: @SiriBot). Botunuz yok ise @BotFather yardımı ile bot oluşturabilirsiniz.",
+      "description": "Inline bot özelliğinin çalışması için gereklidir. Buraya botunuzun kullanıcı adınız yazmanız lazım (Örnek: @loungesupport). Botunuz yok ise @BotFather yardımı ile bot oluşturabilirsiniz.",
       "required": false  
     },
     "BOT_TOKEN": {
@@ -186,7 +186,7 @@
     }, 
     "DEFAULT_BIO": {
       "description": "Varsayılan profil biyografisi.",
-      "value": "@SiriUserBot",
+      "value": "@loungesupport",
       "required": false
     },
     "G_DRIVE_CLIENT_SECRET": {
@@ -226,7 +226,7 @@
     },
     "PAKET_ISMI": {
       "description": "Dızla komutu paket ismini belirleyin. Paket ismi şöyle olacaktır: @KullanıcıAdın verdiğin değer 1",
-      "value": "@SiriUserBot Paketi",
+      "value": "@loungesupport Paketi",
       "required": false
     },
     "OTOMATIK_KATILMA": {
