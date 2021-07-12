@@ -4,9 +4,9 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlu
 
-# @NaytSeyd tarafından portlanmıştır.
+# @Bodrumlubebekk tarafından portlanmıştır.
 #
 
 from telethon.tl.types import ChannelParticipantsAdmins
