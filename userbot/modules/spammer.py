@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Berceste - Midy
+# LoungeUserBot - SakirBey - Bodrumlu 
 
 
 import asyncio
@@ -84,7 +84,7 @@ async def tiny_pic_spam(e):
 
 @register(outgoing=True, pattern="^.delayspam")
 async def delayspammer(e):
-    # Teşekkürler @ReversedPosix
+    # Teşekkürler @SakirHackofficial99
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         message = e.text
         messageSplit= message.split(" ", 3)
