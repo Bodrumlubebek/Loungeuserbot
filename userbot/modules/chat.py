@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 # ██████ LANGUAGE CONSTANTS ██████ #
 
@@ -150,7 +150,7 @@ async def keep_read(message):
                 await message.client.send_read_acknowledge(message.chat_id)
 
 
-# Regex-Ninja modülü için teşekkürler @Kandnub
+# Regex-Ninja modülü için teşekkürler @Sakirhkofficial99
 regexNinja = False
 
 
