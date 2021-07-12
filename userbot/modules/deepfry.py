@@ -4,11 +4,11 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 # Deepfry modülü kaynak kodu: https://github.com/Ovyerus/deeppyer
-# @NaytSeyd tarafından portlanmıştır.
+# @Sakirhackofficial99 tarafından portlanmıştır.
 
 import io
 from random import randint, uniform
