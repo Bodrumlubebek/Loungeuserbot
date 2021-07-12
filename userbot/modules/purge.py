@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Siri UserBot - Erdem Bey
+# Lounge UserBot - Sakir Bey - Bodrumlubebekk
 
 
 """ Gereksiz mesajları temizlemek için UserBot modülü (genellikle spam veya ot). """
