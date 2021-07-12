@@ -1,12 +1,12 @@
-# Copyright (C) 2019 The HydraBots 
+# Copyright (C) 2019 The SakirBey 
 #
 # Licensed under the Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
 
-# Siri UserBot - Berceste
+# Lounge UserBot - Bodrumlubebekk
 
-# credit @sandy1709 
+# credit @Sakirhackofficial99 & @Bodrumlubebekk
 #
 
 from userbot.events import register
@@ -112,7 +112,7 @@ async def ai_reply(event):
         response = await rs_client.get_ai_response(
             message=event.message.text,
             server="primary",
-            master="SiriUserbot",
+            master="LoungeUserbot",
             bot=master_name,
             uid=MYID,
             language=AI_LANG,
