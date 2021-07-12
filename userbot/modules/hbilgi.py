@@ -1,4 +1,4 @@
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 # Translated&Updated by @Erdme
 """Hesabınızın istatistiklerini gösterir"""
 import logging
@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 @register(outgoing=True, pattern=r"^.hbilgi(?: |$)(.*)") 
 async def hesapstat(event: NewMessage.Event) -> None:  # pylint: disable = R0912, R0914, R0915
     """Istatistikler için bir komut"""
-    waiting_message = await event.edit('`Siri Hesap Istatistikleri toplarken biraz bekle.`')
+    waiting_message = await event.edit('`Lounge Hesap Istatistikleri toplarken biraz bekle.`')
     start_time = time.time()
     private_chats = 0
     bots = 0
