@@ -1,4 +1,4 @@
-# SiriUserBot - ErdemBey - Berceste - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk 
 import asyncio
 import telethon
 from userbot.events import register
