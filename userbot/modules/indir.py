@@ -5,7 +5,7 @@ from userbot.cmdhelp import CmdHelp
 from userbot import bot
 
 @register(outgoing=True, pattern="^.indir ?(.*)")
-async def sirinsta(event):
+async def loungensta(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
@@ -18,9 +18,9 @@ async def sirinsta(event):
     chat = "@SaveAsbot"
     reply_message.sender
     if reply_message.sender.bot:
-        await event.edit("`Siri İndiremedi Bazı Hatalar Nedeniyle Başka Link Dene Be Tatlım ✓`")
+        await event.edit("`Lounge İndiremedi Bazı Hatalar Nedeniyle Başka Link Dene Be Tatlım ✓`")
         return
-    asc = await event.edit("`Siri Yüklüyor Sabırlı Ol...`")
+    asc = await event.edit("`Lounge Yüklüyor Sabırlı Ol...`")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -44,7 +44,7 @@ async def sirinsta(event):
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
-                caption=f"@SiriUserBot `ile yüklendi`",
+                caption=f"@loungesupport `ile yüklendi`",
             )
             await event.client.send_read_acknowledge(conv.chat_id)
             
