@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - Berceste
 #
 
 """ UserBot yardım komutu """
@@ -23,7 +23,7 @@ LANG = get_value("__siri")
 
 @register(outgoing=True, pattern="^.[Ss]iri(?: |$)(.*)")
 async def siri(event):
-    """ .siri komutun """
+    """ .lounge komutun """
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
