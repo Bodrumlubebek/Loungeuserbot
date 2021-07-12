@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """ Telegram'dan kod ve terminal komutlarını yürütmek için UserBot modülü. """
@@ -200,7 +200,7 @@ async def terminal_runner(term):
 CmdHelp('evaluators').add_command(
     'eval', '<işlem>', 'Mini ifadeleri değerlendirin.', 'eval 2+3'
 ).add_command(
-    'exec', '<python kodu>', 'Küçük python komutları yürütün.', 'exec print(\"SiriUserbottan Selamlar!\")'
+    'exec', '<python kodu>', 'Küçük python komutları yürütün.', 'exec print(\"LoungeUserbottan Selamlar!\")'
 ).add_command(
     'term', '<işlem>', 'Sunucunuzda bash komutlarını ve komut dosyalarını çalıştırın.', 'term ls'
 ).add()
