@@ -1,4 +1,4 @@
-# BERCESTE / SİRİUSERBOT
+# SAKIRBEY - BODRUMLU / LOUNGEUSERBOT
 
 import os
 from datetime import datetime
