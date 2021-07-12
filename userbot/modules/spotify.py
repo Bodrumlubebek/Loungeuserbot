@@ -1,10 +1,10 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2020 SakirBey.
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlu
 
 from asyncio import sleep
 from json import loads
@@ -206,11 +206,11 @@ def get_spotify_info(TIME=5):
         totaltime = int(item['duration_ms'])
         if len(item['album']['images']) > 0:
             telegraph.create_account(short_name='spotify')
-            if path.exists("@SiriUserBot-Spotify.jpg"):
-                remove("@SiriUserBot-Spotify.jpg")          
+            if path.exists("@loungesupport-Spotify.jpg"):
+                remove("@loungesupport-Spotify.jpg")          
             try:
                 r = get(str(item['album']['images'][0]['url']))
-                with open("@SiriUserBot-Spotify.jpg", 'wb') as f:
+                with open("@loungesupport-Spotify.jpg", 'wb') as f:
                     f.write(r.content)    
 
                 with open('@zsiriUserBot-Spotify.jpg', 'rb') as f:
@@ -220,8 +220,8 @@ def get_spotify_info(TIME=5):
                     image = "[🔄](https://telegra.ph"+req[0]['src']+")"
             except Exception:
                 pass
-        if path.exists("@SiriUserBot-Spotify.jpg"):
-            remove("@SiriUserBot-Spotify.jpg") 
+        if path.exists("@loungesupport-Spotify.jpg"):
+            remove("@loungesupport-Spotify.jpg") 
         art = []
         message = ""
         Stop = False
