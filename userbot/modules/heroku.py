@@ -1,4 +1,4 @@
-# GNU LICENCE / SiriUserBot - Berceste
+# GNU LICENCE / LoungeUserBot - SakirBey - Bodrumlubebekk
 
 import codecs
 import heroku3
@@ -260,5 +260,5 @@ CmdHelp('heroku').add_command(
     ).add_command(
         'log', None, 'Heroku logunuza bakın'
     ).add_info(
-        '**Botlog grubundan çıktıysanız sizin yerinize düzeltmesi için** `.set var BOTLOG False` **yazın.. ✨ Thx to @bberc**'
+        '**Botlog grubundan çıktıysanız sizin yerinize düzeltmesi için** `.set var BOTLOG False` **yazın.. ✨ Thx to @Sakirhackofficial99 @Bodrumlubebekk**'
     ).add()
