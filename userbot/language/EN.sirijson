@@ -2,7 +2,7 @@
     "__SIRIJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "AUTHOR": "Berceste",
+    "AUTHOR": "Bodrumlubebek & SakirBey",
     "STRINGS": {
         "__plugin": {
             "REPLY_FOR_PORT": "`Please give a file for Plugin-Port`",
@@ -31,12 +31,12 @@
             "ALREADY_DELETED": "`The Plugin file has already deleted.`",
             "NOT_FOUND_PLUGIN": "`Maybe there was such a plugin, maybe there wasn't. But it's definitely not right now.`",
             "PLUG_DELETED": "`Plugin deleted successfully!` '**You need to restart operations to be implemented.**",
-            "SIRI_PLUGIN_CAPTION": "This is a plugin of [Siri](https://t.me/SiriUserBot)."
+            "SIRI_PLUGIN_CAPTION": "This is a plugin of [Lounge](https://t.me/loungesupport)."
         },
 
         "__siri": {
             "NEED_PLUGIN": "✨Please provide a Siri module name.",
-            "NEED_MODULE": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Please specify which Siri module you want help for !!\nUsage: .siri <module name>"
+            "NEED_MODULE": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Please specify which Siri module you want help for !!\nUsage: .lounge <module name>"
         },
 
         "__helpme": {
@@ -113,7 +113,7 @@
             "ALREADY": "`It looks like %s is already changing automatically. `",
             "SETTING": "`%s setting...`",
             "BIO": "📅 Date: {tarih} | ⏰ Time: {saat} | ",
-            "NICK": "@SiriOT",
+            "NICK": "@loungesupport",
             "SETTED": "`%s set :)`",
             "NAME": "⌚%s"
         },
@@ -166,8 +166,8 @@
             "EFECTING": "`Applying effect...`",
             "NOT_FOUND_EFECT": "**The effect you specified was not found! ** `Effects you can use:\" çocuk/robot/earrape/fast/interference/echo`",
             "NEED_VIDEO": "`Please reply to a Video!`",
-            "WITH_SIRI": "`Effect applied with` @SiriOT",
-            "WITH_SIRI_GIF": "`Turned to Gif with` @SiriOT",
+            "WITH_SIRI": "`Effect applied with` @loungesupport",
+            "WITH_SIRI_GIF": "`Turned to Gif with` @loungesupport",
             "CONVERTING_TO_GIF": "Turning to gif ...",
             "UPLOADING_GIF": "` Loading Gif ... `",
             "ERROR": "I couldn't turn it into a gif :/"
@@ -298,11 +298,11 @@
 
         "kyolla": {
             "REPLY_MESSAGE": "`Please respond to a message.`",
-            "SUCCESSFUL": "`Siri Sent Message to Recorded Messages Section!`"
+            "SUCCESSFUL": "`Lounge Sent Message to Recorded Messages Section!`"
         },
 
         "klon": {
-            "WLKLON": "`Siri managers don't like to be cloned.`"
+            "WLKLON": "`Lounge managers don't like to be cloned.`"
         },
 
         "lastfm": {
@@ -360,10 +360,10 @@
             "GOODMORNIN_YALL": "`Good Morning!`",
             "GOODBYE_MFRS": "`I'll see you... *Windows XP shutdown sound* `",
             "RESTARTING": "`Bot restarting...`",
-            "SUPPORT_GROUP": "[From Here](http://t.me/SiriSupport) you can contact our support group.",
-            "CREATOR": "Developer: @bberc.",
-            "README": "[Siri README.md](https://github.com/SiriUserBot/SiriUserBot/blob/master/README.md)",
-            "REPO": "[Siri Repo](https://github.com/SiriUserBot/Siriuserbot)",
+            "SUPPORT_GROUP": "[From Here](http://t.me/loungesupport) you can contact our support group.",
+            "CREATOR": "Developer: @Sakirhackofficial & @Bodrumlubebekk .",
+            "README": "[Lounge README.md](https://github.com/robotlog/SiriUserBot/edit/master/README.md)",
+            "REPO": "[Lounge Repo](https://github.com/Bodrumlubebek/Loungeuserbot)",
             "CHECK_LOGS": "`Check userbot logs for decoded message!`"
         },
         "notes": {
@@ -383,7 +383,7 @@
         },
 
         "playstore": {
-            "SEARCH": "`🔎Siri Looking For Your Program...`",
+            "SEARCH": "`🔎Lounge Looking For Your Program...`",
             "EKS": "`⛔ Please write program name... Example`",
             "NOT_FOUND": "`⛔ I Could Not Find Your Program...`",
             "PUAN": "Point :",
@@ -523,7 +523,7 @@
             "SEARCHING": "`Song searching...`",
             "BLOCKED_DEEZER": "`Mmmh, I think you blocked` @DeezerMusicBot `Please open the block.`",
             "NOT_FOUND": "` The song you were looking for was not found! I'm sorry.`",
-            "UPLOADED_WITH": "Upload with @SiriOT",
+            "UPLOADED_WITH": "Upload with @loungesupport",
             "USAGE": "`Usage:` `.song song name/youtube url/spotify url`",
             "SEARCHING_SPOT": "Song searching and downloading please wait!",
             "DOWNLOADED": "`Download is successfully please wait.`",
@@ -593,11 +593,11 @@
             "DO_UPDATE": "`Use the \".update now\" command to make the update. `",
             "FORCE_UPDATE": "`The current stabil userbot code is being forcibly synchronized... `",
             "UPDATING": "`The bot is being updated ...`",
-            "INVALID_APPNAME": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Error:** __To use the updater, you must define the HEROKU_APPNAME variable..__",
+            "INVALID_APPNAME": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Error:** __To use the updater, you must define the HEROKU_APPNAME variable..__",
             "INVALID_HEROKU": "{}\n`Heroku variables are incorrect or under defined.`",
-            "HEROKU_UPDATING": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status**: __Updating..\n\n💌 You can be sure that your UserBot will be better :) This process takes a maximum of 10 minutes..__",
+            "HEROKU_UPDATING": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status**: __Updating..\n\n💌 You can be sure that your UserBot will be better :) This process takes a maximum of 10 minutes..__",
             "ERRORS": "Errors encountered here",
-            "SUCCESSFULLY": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status:** __Update completed successfully!\n\n🔄 Restarting...__"
+            "SUCCESSFULLY": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status:** __Update completed successfully!\n\n🔄 Restarting...__"
         },
 
         "upload_download": {
