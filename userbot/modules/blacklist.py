@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 import io
 import re
