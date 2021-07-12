@@ -1,4 +1,4 @@
-# SiriUserBot - ErdemBey - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebek
 
 from telethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError)
 from emoji import emojize
