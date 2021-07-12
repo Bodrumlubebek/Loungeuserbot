@@ -56,3 +56,4 @@ YAKINDA...!
 
 ### 🇹🇷 Geliştirici / Developer 🇺🇲
  [![Bodrumlu](https://github.com/Bodrumlubebek.png?size=100)](https://t.me/loungesupport) 
+ [![Sakir](https://avatars.githubusercontent.com/u/86895448?v=4)](https://github.com/SakirBey1)
