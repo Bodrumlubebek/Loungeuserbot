@@ -1,13 +1,13 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2020 ŞakirBey & Bodrumlubebekk.
 #
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - ŞakirBey & Bodrumlubebekk
 
-# @Qulec tarafından yazılmıştır.
-# Thanks @Spechide.
+# @Sakirhacofficial99 tarafından yazılmıştır.
+# Thanks @Sakirhackofficial99.
 
 from userbot import BOT_USERNAME
 from userbot.events import register
@@ -25,7 +25,7 @@ async def yardim(event):
     if tgbotusername is not None:
         results = await event.client.inline_query(
             tgbotusername,
-            "@SiriUserBot"
+            "@loungesupport"
         )
         await results[0].click(
             event.chat_id,
