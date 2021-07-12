@@ -1,10 +1,10 @@
-# Copyright (C) 2020 SiriUserBot
-# thx to Yusuf Usta
+# Copyright (C) 2020 LoungeUserBot
+# thx to SakirBey
 # Licensed under the GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlu
 
 import datetime
 from telethon import events
@@ -151,32 +151,32 @@ async def memeyap(event):
         if reply.photo:
             Resim = await reply.download_media()
         elif reply.sticker and reply.file.ext == ".webp":
-            if os.path.exists("./SiriSticker.png"):
-                os.remove("./SiriSticker.png")
+            if os.path.exists("./LoungeSticker.png"):
+                os.remove("./LoungeSticker.png")
 
             foto = await reply.download_media()
             im = Image.open(foto).convert("RGB")
-            im.save("SiriSticker.png", "png")
-            Resim = "SiriSticker.png"
+            im.save("LoungeSticker.png", "png")
+            Resim = "LoungeSticker.png"
         elif reply.sticker and reply.file.ext == ".tgs":
             sticker = await reply.download_media()
-            os.system(f"lottie_convert.py --frame 0 -if lottie -of png '{sticker}' SiriSticker.png")
+            os.system(f"lottie_convert.py --frame 0 -if lottie -of png '{sticker}' LoungeSticker.png")
             os.remove(sticker)
-            Resim = "SiriSticker.png"
+            Resim = "LoungeSticker.png"
         elif reply.media:
             Resim = await reply.download_media()
             Sure = os.system("ffmpeg -i '"+Resim+"' 2>&1 | grep Duration | awk '{print $2}' | tr -d , | awk -F ':' '{print ($3+$2*60+$1*3600)/2}'``")
-            os.system(f"ffmpeg -i '{Resim}' -vcodec mjpeg -vframes 1 -an -f rawvideo -ss {Sure} SiriThumb.jpg")
+            os.system(f"ffmpeg -i '{Resim}' -vcodec mjpeg -vframes 1 -an -f rawvideo -ss {Sure} LoungeThumb.jpg")
             os.remove(Resim)
-            Resim = 'SiriThumb.jpg'
+            Resim = 'LoungeThumb.jpg'
         else:
             return await event.edit(LANG['REPLY_TO_MEME'])
             
-        if os.path.exists("./bercmeme.png"):
-            os.remove("./bercmeme.png")
+        if os.path.exists("./sakirmeme.png"):
+            os.remove("./bodrumlumeme.png")
 
         MemeYap(Resim, Text, font, Bottom, BottomText)
-        await event.client.send_file(event.chat_id, "./bercmeme.png", reply_to=reply)
+        await event.client.send_file(event.chat_id, "./bodrumlumeme.png", reply_to=reply)
         await event.delete()
         os.remove(Resim)
     else:
@@ -333,7 +333,7 @@ async def voicy(event):
         elif response.text.startswith("__👮"):
             await event.edit(LANG['VOICY_ERR'])
         else:
-            res = response.text.replace("Powered by [Todorant](https://todorant.com/?utm_source=voicy)","`\n❤️ __by @SiriOT__")
+            res = response.text.replace("Powered by [Todorant](https://todorant.com/?utm_source=voicy)","`\n❤️ __by @loungesupport__")
             await event.edit(f"**{LANG['HEAR_SOMETHING']}: **`{res}")
         await conv.mark_read()
         await conv.cancel_all()
@@ -393,7 +393,7 @@ CmdHelp('scrapers_bot').add_command(
 ).add_command(
     'scan', '<yanıt>', 'Belirtilen dosyada virüs var mı yok mu bakın.'
 ).add_command(
-    'meme', '<font> <üst;alt>', 'Fotoğrafa yazı ekleyin. İsterseniz font büyüklüğünü de yazabilirsiniz.', 'meme 30 siri;usta'
+    'meme', '<font> <üst;alt>', 'Fotoğrafa yazı ekleyin. İsterseniz font büyüklüğünü de yazabilirsiniz.', 'meme 30 lounge;usta'
 ).add_command(
     'voicy', '<yanıt>', 'Sesi yazıya çevirin.'
 ).add_command(
