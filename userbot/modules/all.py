@@ -1,4 +1,4 @@
-# SİRİ USERBOT / ALL PLUGİNİ / ERDEM BEY
+# LOUNGES USERBOT / ALL PLUGİNİ / SAKİRBEY & BODRUMLUBEBEKK
 
 from telethon.tl.types import ChannelParticipantsAdmins as cp
 from userbot import CMD_HELP, bot
