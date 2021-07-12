@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlu
 
 
 """ Sunucu hakkında bilgi veren UserBot modülüdür. """
@@ -17,7 +17,7 @@ from platform import uname
 from shutil import which
 from requests import get
 import os
-from userbot import (CMD_HELP, SIRI_VERSION, DEFAULT_NAME, WHITELIST, MYID, ASISTAN, WORKTIME, timesiri, bot) 
+from userbot import (CMD_HELP, LOUNGE_VERSION, DEFAULT_NAME, WHITELIST, MYID, ASISTAN, WORKTIME, timelounge, bot) 
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from userbot.helps.asistan import bana_mi_diyo
@@ -100,7 +100,7 @@ async def bot_ver(event):
                          "`")
     else:
         await event.edit(
-            "Siri Dinlemede!!!"
+            "Lounge Dinlemede!!!"
         )
 
 
@@ -154,7 +154,7 @@ async def amialive(e):
             await e.edit(PLUGIN_MESAJLAR['alive'].format(
                 telethon=version.__version__,
                 python=python_version(),
-                siri=SIRI_VERSION,
+                lounge=LOUNGE_VERSION,
                 plugin=len(CMD_HELP),
                 id=me.id,
                 worktime = await timesiri.get_readable_time((emit() - WORKTIME)),
@@ -162,7 +162,7 @@ async def amialive(e):
                 first_name=me.first_name,
                 last_name=me.last_name if me.last_name else '',
                 mention=f'[{me.first_name}](tg://user?id={me.id})',
-                sirisahip = sahipp
+                loungesahip = sahipp
             ))
         else:
             await e.delete()
@@ -170,7 +170,7 @@ async def amialive(e):
                 PLUGIN_MESAJLAR['alive'].text = PLUGIN_MESAJLAR['alive'].text.format(
                     telethon=version.__version__,
                     python=python_version(),
-                    siri=SIRI_VERSION,
+                    lounge=LOUNGE_VERSION,
                     plugin=len(CMD_HELP),
                     id=me.id,
                     worktime = await timesiri.get_readable_time((emit() - WORKTIME)),
@@ -178,7 +178,7 @@ async def amialive(e):
                     first_name=me.first_name,
                     last_name=me.last_name if me.last_name else '',
                     mention=f'[{me.first_name}](tg://user?id={me.id})',
-                    sirisahip = sahipp
+                    loungesahip = sahipp
                 )
             if e.is_reply:
                 await e.respond(PLUGIN_MESAJLAR['alive'], reply_to=e.message.reply_to_msg_id)
@@ -195,8 +195,8 @@ async def asistanalive(ups):
         hitap = "💝 ʕっ•ᴥ•ʔっ Asistan"
     else:
         hitap = "💪🏻(･–･) \(･◡･)/ Yöneticim"
-    SiriVer = str(SIRI_VERSION.replace("v","")) 
-    await ups.reply(f"__{hitap} seni seviyorum! Siri çalışıyor!__")
+    SiriVer = str(LOUNGE_VERSION.replace("v","")) 
+    await ups.reply(f"__{hitap} seni çok seviyorum (I love you) lounge çalışıyor...!__")
 
 
 CmdHelp('system_stats').add_command(
@@ -206,5 +206,5 @@ CmdHelp('system_stats').add_command(
 ).add_command(
     'pip', '<modül(ler)>', 'Pip modüllerinde arama yapar.'
 ).add_command(
-    'alive', None, 'Siri botunun çalışıp çalışmadığını kontrol etmek için kullanılır.'
+    'alive', None, 'Lounge botunun çalışıp çalışmadığını kontrol etmek için kullanılır.'
 ).add()
