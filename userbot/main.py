@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Siri UserBot - Berceste
+# Lounge UserBot - Bodrumlubebek&Sakirbey
 
 """ UserBot başlangıç noktası """
 import importlib
@@ -15,7 +15,7 @@ import requests
 from telethon.tl.types import InputMessagesFilterDocument
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 from telethon.tl.functions.channels import GetMessagesRequest
-from . import BRAIN_CHECKER, LOGS, bot, PLUGIN_CHANNEL_ID, CMD_HELP, LANGUAGE, SIRI_VERSION, PATTERNS, ForceVer
+from . import BRAIN_CHECKER, LOGS, bot, PLUGIN_CHANNEL_ID, CMD_HELP, LANGUAGE, LOUNGE_VERSION, PATTERNS, ForceVer
 from .modules import ALL_MODULES
 import userbot.modules.sql_helper.mesaj_sql as MSJ_SQL
 import userbot.modules.sql_helper.galeri_sql as GALERI_SQL
@@ -30,12 +30,12 @@ import userbot.cmdhelp
 
 ALIVE_MSG = [
     "`Userbotunuz çalışalı şu kadar oluyor:` **{worktime}** ❤️",
-    "🎆 `Endişelenme! Seninleyim.` **{sirisahip}**, `userbot çalışıyor.`",
-    "`⛈️ Yeni gibi görünüyor!`, **{sirisahip}:3**",
+    "🎆 `Endişelenme! Seninleyim.` **{loungesahip}**, `userbot çalışıyor.`",
+    "`⛈️ Yeni gibi görünüyor!`, **{loungesahip}:3**",
     "✨ `Userbot sahibinin emirlerine hazır...`",
-    "`Huh!` **{sirisahip}** `beni çağırıyor 🍰 < bu senin için 🥺..`",
-    "{mention} **Siri Senin İçin Çalışıyor✨**",
-    "{username}, `SiriOT {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
+    "`Huh!` **{loungesahip}** `beni çağırıyor 🍰 < bu senin için 🥺..`",
+    "{mention} **Lounge Senin İçin Çalışıyor✨**",
+    "{username}, `LoungeUserBot {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
 ]
 
 DIZCILIK_STR = [
@@ -84,13 +84,13 @@ KICKME_MSG = [
     "Güle güle ben gidiyorum 👋🏻",
     "Sessizce çıkıyorum 🥴",
     "Haberin olmadan çıkarsam bir gün benim grupta olmadığı farkedeceksin.. O yüzden bu mesajı bırakıyorum🚪",
-    "Hemen burayı terk etmeliyim🤭",
+    "Grubtan çıktım allaha emanet olun...",
     "7 deniz ve 7 ülke,\n7 su ve 7 kıta,\n7 dağ ve 7 tepe,\n7 ovala ve 7 höyük,\n7 havuz ve 7 göl,\n7 bahar ve 7 çayır,\n7 şehir ve 7 mahalle,\n7 blok ve 7 ev...\n\nKısaca bu gruptan uzak bi yere..!",
     "Hadi ben kaçtım!"
 ]
 
 
-UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben Siri. Endişelenme!\n\n`"
+UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben Lounge. Endişelenme!\n\n`"
                   "`Sahibim sana mesaj atma izni vermedi o yüzden sahibim seni onaylayana kadar bu mesajı alacaksın.. `"
                   "`Lütfen sahibimin aktif olmasını bekleyin, o genellikle PM'leri onaylar.\n\n`"
                   "`Bildiğim kadarıyla o kafayı yemiş insanlara PM izni vermiyor.`")
@@ -190,8 +190,8 @@ try:
     idim = bot.get_me().id
     siribl = requests.get('https://raw.githubusercontent.com/robotlog/datas/master/blacklist.json').json()
     if idim in siribl:
-        bot.send_message("me", f"`❌ Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
-        LOGS.error("Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
+        bot.send_message("me", f"`❌ Lounge yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        LOGS.error("Lounge yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
         quit(1)
     # ChromeDriver'ı Ayarlayalım #
@@ -205,7 +205,7 @@ try:
 
     # PLUGIN MESAJLARI AYARLIYORUZ
     PLUGIN_MESAJLAR = {}
-    ORJ_PLUGIN_MESAJLAR = {"alive": f"{str(choice(ALIVE_MSG))}", "afk": f"`{str(choice(AFKSTR))}`", "kickme": f"`{str(choice(KICKME_MSG))}`", "pm": str(UNAPPROVED_MSG), "dızcı": str(choice(DIZCILIK_STR)), "ban": "🌀 {mention}`, Banlandı!!`", "mute": "🌀 {mention}`, sessize alındı!`", "approve": "`Merhaba` {mention}`, artık bana mesaj gönderebilirsin!`", "disapprove": "{mention}`, artık bana mesaj gönderemezsin!`", "block": "{mention}`, bunu bana mecbur bıraktın! Seni engelledim!`"}
+    ORJ_PLUGIN_MESAJLAR = {"alive": f"{str(choice(ALIVE_MSG))}", "afk": f"`{str(choice(AFKSTR))}`", "kickme": f"`{str(choice(KICKME_MSG))}`", "pm": str(UNAPPROVED_MSG), "dızcı": str(choice(DIZCILIK_STR)), "ban": "🌀 {mention}`, Banlandı!!`", "mute": "🌀 {mention}`, sessize alındı!`", "approve": "`Merhaba` {mention}`, mesajını onayladım!`", "disapprove": "Hey! {mention}`,  bana mesaj yazmanı engelledim`", "block": "{mention}`, Hey! artık seni engelledim bana yazamassın!`"}
 
 
     PLUGIN_MESAJLAR_TURLER = ["alive", "afk", "kickme", "pm", "dızcı", "ban", "mute", "approve", "disapprove", "block"]
@@ -285,12 +285,12 @@ for module_name in ALL_MODULES:
 os.system("clear")
 
 LOGS.info("+===========================================================+")
-LOGS.info("|                     ✨Siri Userbot✨                       |")
+LOGS.info("|                     ✨Lounge Userbot✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
-          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/SiriSupport")
-LOGS.info(f"Bot versiyonunuz: Siri {SIRI_VERSION}")
+          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/loungesupport")
+LOGS.info(f"Bot versiyonunuz: Lounge {LOUNGE_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
