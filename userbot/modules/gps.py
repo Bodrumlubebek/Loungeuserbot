@@ -12,7 +12,7 @@ async def gps(event):
     input_str = event.pattern_match.group(1)
 
     if not input_str:
-        return await event.edit("`Siriye Bir Bölgenin İsmini Vermezsen Bulamaz Ki.`")
+        return await event.edit("`Lounge'ye Bir Bölgenin İsmini Vermezsen Bulamaz Ki.`")
 
     await event.edit("**Buluyorum...**")
 
