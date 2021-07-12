@@ -1,4 +1,4 @@
-#SİRİ USERBOT / ERDEM-BEY
+#LOUNGE USERBOT / SakirBey - Bodrumlubebekk
 
 from userbot.cmdhelp import CmdHelp
 from userbot.events import register
