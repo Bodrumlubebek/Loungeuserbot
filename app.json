@@ -1,7 +1,7 @@
 {
-  "name": "Siri UserBot",
-  "description": "Siri UserBot",
-  "logo": "https://telegra.ph/Space-01-17",
+  "name": "Lounge UserBot",
+  "description": "Lounge UserBot",
+  "logo": "https://telegra.ph/file/b9b3f68c53500a3b856c2.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,7 +10,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ErdemBey1/SiriUserBot",
+  "repository": "https://github.com/Bodrumlubebek/LoungeUserBot",
   "website":   "https://t.me/Codlar",
   "success_url": "https://t.me/SiriChat",
   "stack": "container",
