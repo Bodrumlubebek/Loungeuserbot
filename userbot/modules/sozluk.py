@@ -4,9 +4,9 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlu
 
-# Turkish word meaning. Only Turkish. Coded @By_Azade, Siri uyarlaması @erdembey1
+# Turkish word meaning. Only Turkish. Coded @Sakirhackofficial99, Lounge uyarlaması @Bodrumlubebekk
 #
 
 import requests
