@@ -1,10 +1,10 @@
-# Copyright (C) 2020 Yusuf Usta.
+# Copyright (C) 2020 SakirBey.
 #
 # Licensed under the  GPL-3.0 License;
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - Bodrumlubebekk
 
 from userbot import CMD_HELP
 from userbot.events import register
@@ -48,7 +48,7 @@ async def cevir(event):
 
         im = Image.open(foto).convert("RGB")
         im.save("sticker.png", "png")
-        await event.client.send_file(event.chat_id, "sticker.png", reply_to=rep_msg, caption="**@SiriOT ile Fotoğrafa çevirildi**")
+        await event.client.send_file(event.chat_id, "sticker.png", reply_to=rep_msg, caption="**@loungesupport ile Fotoğrafa çevirildi**")
 
         await event.delete()
         os.remove("sticker.png")
@@ -73,7 +73,7 @@ async def cevir(event):
             indir = await rep_msg.download_media()
             ses = await asyncio.create_subprocess_shell(f"ffmpeg -i '{indir}' {KOMUT[efekt]} output.mp3")
             await ses.communicate()
-            await event.client.send_file(event.chat_id, "output.mp3", reply_to=rep_msg, caption="**@SiriOT ile efekt uygulandı.**")
+            await event.client.send_file(event.chat_id, "output.mp3", reply_to=rep_msg, caption="**@loungesupport ile efekt uygulandı.**")
             
             await event.delete()
             os.remove(indir)
@@ -123,7 +123,7 @@ async def cevir(event):
         await event.edit('`Ses yükleniyor...`')
         
         try:
-            await event.client.send_file(event.chat_id, "out.mp3",reply_to=rep_msg, caption='**@SiriOT ile sese çevrildi.**')
+            await event.client.send_file(event.chat_id, "out.mp3",reply_to=rep_msg, caption='**@loungesupport ile sese çevrildi.**')
         except:
             os.remove(video)
             return await event.edit('`Sese çevirilemedi!`')
