@@ -2,7 +2,7 @@
     "__SIRIJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "tr",
-    "AUTHOR": "Siri Ekibi / MESR",
+    "AUTHOR": "Lounge Ekibi / MESR",
     "STRINGS": {
         "__plugin": {
             "REPLY_FOR_PORT": "`Plugin-Port için lütfen bir dosyaya yanıt verin.`",
@@ -31,12 +31,12 @@
             "ALREADY_DELETED": "`Plugin dosyası zaten silinmiş.`",
             "NOT_FOUND_PLUGIN": "`Böyle bir plugin belki vardı, belki de yoktu. Ama şu an olmadığı kesin.`",
             "PLUG_DELETED": "`Plugin başarıyla silindi! Siri yeniden başlatılıyor`",
-            "SIRI_PLUGIN_CAPTION": "Bu bir [Siri](https://t.me/SiriUserBot) pluginidir."
+            "SIRI_PLUGIN_CAPTION": "Bu bir [Lounge](https://t.me/loungesupport) pluginidir."
         },
         
         "__siri": {
-            "NEED_PLUGIN": "✨ Lütfen bir Siri modülü adı belirtin.",
-            "NEED_MODULE": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Siri modülü için yardım istediğinizi belirtin !!\nKullanım: .siri <modül adı>"
+            "NEED_PLUGIN": "✨ Lütfen bir Lounge modülü adı belirtin.",
+            "NEED_MODULE": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Lounge modülü için yardım istediğinizi belirtin !!\nKullanım: .lounge <modül adı>"
         },
 
         "__helpme": {
@@ -116,7 +116,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "📆 Tarih: {tarih} | ⏰ Saat: {saat} | ",
-            "NICK": "@SiriOT",
+            "NICK": "@loungesupport",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "⌚%s"
         },
@@ -134,7 +134,7 @@
 
 
         "botfather": {
-            "ERROR": "`⛔ Sirinin Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`"
+            "ERROR": "`⛔ Lounge'nin Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`"
         },
 
         "combot": {
@@ -172,8 +172,8 @@
             "EFECTING": "`Efekt uygulanıyor...`",
             "NOT_FOUND_EFECT": "**Belirttiğiniz efekt bulunamadı! **`Kullanılabileceğiniz efektler: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Lütfen bir videoya yanıt verin!`",
-            "WITH_SIRI":"@SiriOT `ile efekt uygulandı.`",
-            "WITH_SIRI_GIF": "@SiriOT `ile Gif'e çevirildi.`",
+            "WITH_SIRI":"@loungesupport `ile efekt uygulandı.`",
+            "WITH_SIRI_GIF": "@loungesupport `ile Gif'e çevirildi.`",
             "CONVERTING_TO_GIF": "Gif'e çeviriliyor...",
             "UPLOADING_GIF": "`Gif yükleniyor...`",
             "ERROR": "Gif'e çeviremedim :/"
@@ -290,7 +290,7 @@
 
         "galeri": {
             "ADDED_LIST": "`Fotoğraf sıraya alındı.`",
-            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.siri galeri` `yazınız.`",
+            "INVALID_URL": "`Geçersiz bir resim URL'si girdiniz. Kullanım hakkında bir fikriniz yoksa, ` `.lounge galeri` `yazınız.`",
             "EXAMPLE": "`Lütfen bir resim adresi giriniz. Örnek olarak: ` `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`",
             "LIST": "Sıraya Aldığınız Fotoğraflar",
             "REMOVED": "**Sıradaki fotoğraf başarıyla kaldırıldı**",
@@ -369,16 +369,16 @@
             "REPLY_TO_FILE": "`Bir dosyaya yanıt ver.`",
             "QUERY": "Sorgu",
             "RESULT": "Çıktı",
-            "NEED_MUCH_DATA_FOR_RANDOM": "`2 veya daha fazla eşya gerekli. Daha fazla bilgi için .siri random komutunu gir.`",
+            "NEED_MUCH_DATA_FOR_RANDOM": "`2 veya daha fazla eşya gerekli. Daha fazla bilgi için .lounge random komutunu gir.`",
             "SLEEP_DESC": "Kullanım Şekli: `.sleep [saniye]`",
             "SLEEPING": "`Horlayarak uyuyorum...`",
             "GOODMORNIN_YALL": "`Günaydın!`",
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/SiriSupport) destek grubumuza ulaşabilirsiniz.",
-            "CREATOR": "Bu bot @bberc tarafından geliştirilmiştir. \n",
-            "README": "[Siri README.md](https://github.com/SiriUserBot/SiriUserBot/blob/master/README.md)",
-            "REPO": "[Siri Repo](https://github.com/SiriUserBot/siriuserbot)",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/loungesupport) destek grubumuza ulaşabilirsiniz.",
+            "CREATOR": "Bu bot @Bodrumlubebekk ve @Sakirhackofficial99 tarafından geliştirilmiştir. \n",
+            "README": "[Lounge README.md](https://github.com/Bodrumlubebek/Loungeuserbot/blob/main/README.md)",
+            "REPO": "[Lounge Repo](https://github.com/Bodrumlubebek/Loungeuserbot)",
             "CHECK_LOGS": "`Çözülmüş mesaj için userbot loglarını kontrol et!`"
         },
 
@@ -400,7 +400,7 @@
         },
 
         "playstore": {
-            "SEARCH": "`🔎Siri Verdiğiniz Program Arıyor..`",
+            "SEARCH": "`🔎Lounge Verdiğiniz Program Arıyor..`",
             "EKS": "`⛔ Lütfen Program adı yazın.. Örnek`",
             "NOT_FOUND": "`⛔ Verdiğiniz Programı Bulamadım..`",
             "PUAN": "Puan :",
@@ -549,7 +549,7 @@
             "SEARCHING": "`Şarkı aranıyor...`",
             "BLOCKED_DEEZER": "`Mmmh sanırım` @DeezerMusicBot `engellemişsin. Lütfen engeli aç.",
             "NOT_FOUND": "`Aradığınız şarkı bulunamadı! Üzgünüm.`",
-            "UPLOADED_WITH": "@SiriOT ile yüklendi.",
+            "UPLOADED_WITH": "@loungesupport ile yüklendi.",
             "USAGE": "`Kullanım:` `.song şarkı ismi/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Şarkı aranıyor ve indiriliyor lütfen bekleyin!",
             "DOWNLOADED": "`İndirme işlemi başarılı lütfen bekleyiniz.`",
@@ -592,7 +592,7 @@
             "QUERY": "Sorgu",
             "RESULT": "Sonuç",
             "NOT_FOUND": "Bir şey bulunamadı",
-            "EXAMPLE": "`Bir örnek görmek için .siri pip komutunu kullanın.`"
+            "EXAMPLE": "`Bir örnek görmek için .lounge pip komutunu kullanın.`"
 
         },
 
@@ -614,18 +614,18 @@
             "NOT_FOUND": "klasörü bulunamadı.",
             "GIT_ERROR": "Git hatası!",
             "NOT_GIT": "klasörü bir git reposu gibi görünmüyor. \nFakat bu sorunu .update now komutuyla botu zorla güncelleyerek çözebilirsin.",
-            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Siri botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Siri botunu resmi repodan kullan.`",
+            "INVALID_BRANCH": "**[UPDATER]:**` Galiba Lounge botunu modifiye ettin ve kendi branşını kullanıyorsun.\nBu durum güncelleyicinin kafasını karıştırıyor,\nGüncelleme nereden çekilecek?\nLütfen Siri botunu resmi repodan kullan.`",
             "UPDATE": "\n`Botun` **tamamen güncel!** `Branch:` **{}**\n",
             "WAS_UPDATE": "**{} için yeni güncelleme mevcut!\n\nDeğişiklikler:**\n`{}`",
             "BIG": "`Değişiklik listesi çok büyük, dosya olarak görüntülemelisin.`",
             "DO_UPDATE": "`Güncellemeyi yapmak için \".update now\" komutunu kullan.`",
             "FORCE_UPDATE": "`Güncel stabil userbot kodu zorla eşitleniyor...`",
             "UPDATING": "`Bot güncelleştiriliyor...`",
-            "INVALID_APPNAME": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
+            "INVALID_APPNAME": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
             "INVALID_HEROKU": "{}\n`Heroku değişkenleri yanlış veya eksik tanımlanmış.`",
-            "HEROKU_UPDATING": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
+            "HEROKU_UPDATING": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
             "ERRORS": "Karşılaşılan hatalar burada",
-            "SUCCESSFULLY": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__"
+            "SUCCESSFULLY": "✨ Lounge 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__"
         },
 
         "upload_download": {
@@ -666,7 +666,7 @@
         },
 
         "klon": {
-            "WLKLON": "`Siri yöneticileri klonlanmayı sevmiyor.`"
+            "WLKLON": "`Lounge yöneticileri klonlanmayı sevmiyor.`"
         },
 
         "whois": {
