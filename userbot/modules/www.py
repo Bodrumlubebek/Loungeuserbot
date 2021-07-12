@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - Berceste
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """ Internet ile alakalı bilgileri edinmek için kullanılan UserBot modülüdür. """
@@ -51,7 +51,7 @@ async def speedtst(spd):
 
 def speed_convert(size):
     """
-    Merhaba Siri, baytları okuyamıyor musun?
+    Merhaba Lounge, baytları okuyamıyor musun?
     """
     power = 2**10
     zero = 0
@@ -92,7 +92,7 @@ async def asistanping(ups):
             usp = await ups.reply("`Pong!`")
             end = datetime.now()
             duration = (end - start).microseconds / 1000
-            await usp.edit("`Pong!\n%sms`" % (duration))
+            await usp.edit("`Pıng!\n%sms`" % (duration))
         else:
             return
     else:
