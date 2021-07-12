@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """ Kimin size özel mesaj gönderebileceğini kontrol altına almanızı sağlayan UserBot modülüdür. """
@@ -46,7 +46,7 @@ async def permitpm(event):
             if DEFAULT_NAME:
                 siri_sahip = f"{DEFAULT_NAME}"
             else:
-                siri_sahip = "Sahibim"
+                lounge_sahip = "Sahibim"
             reply_user = await event.get_sender()
             id = reply_user.id
             first_name = str(reply_user.first_name)
@@ -76,7 +76,7 @@ async def permitpm(event):
                                     mention=first_name,
                                     first_name=first_name,
                                     last_name=last_name,
-                                    sirisahip=siri_sahip
+                                    loungesahip=lounge_sahip
                                 )
                             ):
                                 await message.delete()
@@ -86,7 +86,7 @@ async def permitpm(event):
                                 mention=mention,
                                 first_name=first_name,
                                 last_name=last_name,
-                                sirisahip=siri_sahip
+                                loungesahip=lounge_sahip
                             ))
                         else:
                             async for message in event.client.iter_messages(
@@ -101,7 +101,7 @@ async def permitpm(event):
                                     mention=mention,
                                     first_name=first_name,
                                     last_name=last_name,
-                                    sirisahip=siri_sahip
+                                    loungesahip=lounge_sahip
                                 )
 
                             await event.reply(PLUGIN_MESAJLAR['pm'])
@@ -113,7 +113,7 @@ async def permitpm(event):
                                     mention=mention,
                                     first_name=first_name,
                                     last_name=last_name,
-                                    sirisahip=siri_sahip
+                                    loungesahip=lounge_sahip
                                 ))
                     LASTMSG.update({event.chat_id: event.text})
 
@@ -173,9 +173,9 @@ async def auto_accept(event):
         chat = await event.get_chat()
         id = chat.id
         if DEFAULT_NAME:
-            siri_sahip = f"{DEFAULT_NAME}"
+            lounge_sahip = f"{DEFAULT_NAME}"
         else:
-            siri_sahip = "Sahibim"
+            lounge_sahip = "Sahibim"
         first_name = str(chat.first_name)
         if chat.last_name:
             last_name = str(chat.last_name)
@@ -196,7 +196,7 @@ async def auto_accept(event):
                                     id=id,
                                     username=username,
                                     mention=mention,
-                                    sirisahip=siri_sahip,
+                                    loungesahip=lounge_sahip,
                                     first_name=first_name,
                                     last_name=last_name
                                 ) and message.from_id == self_user.id:
@@ -260,9 +260,9 @@ async def approvepm(apprvpm):
         reply_user = await apprvpm.client.get_entity(apprvpm.chat_id)
 
     if DEFAULT_NAME:
-        siri_sahip = f"{DEFAULT_NAME}"
+        lounge_sahip = f"{DEFAULT_NAME}"
     else:
-        siri_sahip = "Sahibim"
+        lounge_sahip = "Sahibim"
 
     id = reply_user.id
     first_name = str(reply_user.first_name)
@@ -284,7 +284,7 @@ async def approvepm(apprvpm):
         id=id,
         username=username,
         mention=mention,
-        sirisahip=siri_sahip,
+        loungesahip=lounge_sahip,
         first_name=first_name,
         last_name=last_name
     ))
@@ -294,7 +294,7 @@ async def approvepm(apprvpm):
         id=id,
         username=username,
         mention=first_name,
-        sirisahip=siri_sahip,
+        loungesahip=lounge_sahip,
         first_name=first_name,
         last_name=last_name
     )):
