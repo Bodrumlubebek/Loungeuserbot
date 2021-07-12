@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# SiriUserBot - ErdemBey - Midy
+# LoungeUserBot - SakirBey - Bodrumlubebekk
 
 
 """Bir bölgenin hava durumunu gösterir."""
@@ -38,7 +38,7 @@ else:
 
 async def get_tz(con):
     """ Verilen ülkenin zaman dilimini alır. """
-    """ @aragon12 ve @zakaryan2004'e teşekkürler. """
+    """ @Sakirhackofficial99 ve @Bodrumlubebekk'e teşekkürler. """
     for c_code in c_n:
         if con == c_n[c_code]:
             return tz(c_tz[c_code][0])
