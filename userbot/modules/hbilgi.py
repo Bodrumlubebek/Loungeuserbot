@@ -1,5 +1,5 @@
 # LoungeUserBot - SakirBey - Bodrumlubebekk
-# Translated&Updated by @Erdme
+# Translated&Updated by @Sakirhackofficial99
 """Hesabınızın istatistiklerini gösterir"""
 import logging
 import time
