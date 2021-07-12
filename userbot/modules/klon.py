@@ -1,4 +1,4 @@
-# SİRİ UserBot / ERDEM BEY - BERCESTE - MİDY
+# LOUNGE UserBot / SAKIR BEY - BODRUMLUBEBEKK
 import html
 import os
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -71,7 +71,7 @@ async def clone(event):
     await event.delete()
     await event.client.send_message(
       event.chat_id,
-      "`Hahahah, Siri Sayesinde Seni Çaldım.`",
+      "`Hahahah, Lounge Sayesinde Seni Çaldım.`",
       reply_to=reply_message
       )
 
@@ -95,7 +95,7 @@ async def revert(event):
         await bot(functions.account.UpdateProfileRequest(about=DEFAULT_BIO))
         await event.edit(f"`{DEFAULT_NAME}, hesabınız başarıyla eski haline döndürüldü!`")
     except AboutTooLongError:
-        srt_bio = "🎆 @SiriUserBot"
+        srt_bio = "🎆 @loungesupport"
         await bot(functions.account.UpdateProfileRequest(about=srt_bio))
         await event.edit("`Hesabınız başarıyla eski haline döndürüldü! Fakat bio'nuz çok uzun olduğu için hazır bio kullandım.`")
 
@@ -157,4 +157,4 @@ async def get_full_user(event):
 CmdHelp('klon').add_command('klon','<mesajı yanıtlayarak>','Mesajına yanıt verdiğiniz kişinin klonu olursunuz.','klon'
 ).add_command('revert',None,'Klondan sonra hesabınızın eski haline dönmesi için :p','revert'
 ).add_warning('Herokuda DEFAULT_NAME değişkenin tanımlı olması lazım. Bu ne demek bilmiyorsanız herhangi bir sohbete `.revert` yazın.'
-).add_info('🎆 Thx to @bberc').add()
+).add_info('🎆 Thx to @Bodrumlubebekk @Sakirhackofficial99').add()
